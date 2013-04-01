@@ -55,6 +55,9 @@ projects[og][subdir] = "contrib"
 projects[og_clone][version] = "1.x-dev"
 projects[og_clone][subdir] = "contrib"
 
+projects[node_clone][version] = "1.0-rc1"
+projects[node_clone][subdir] = "contrib"
+
 projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
@@ -75,9 +78,6 @@ projects[strongarm][subdir] = "contrib"
 
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
-
-projects[quiz][version] = "4.0-beta1"
-projects[quiz][subdir] = "contrib"
 
 projects[quiz][version] = "4.0-beta1"
 projects[quiz][subdir] = "contrib"
@@ -129,6 +129,9 @@ libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 
 ; Patches
+; allow for cloning of quiz things
+projects[quiz][patch][] = "http://drupal.org/files/0001-Allow-Quiz-nodes-to-be-cloned-with-the-node_clone-mo.patch"
+node_clone
 ; fix false menu cloning
 projects[og_clone][patch][] = "http://drupal.org/files/og_clone-menu-cloning-none-1940982-1.patch"
 ; allow for altering what can be cloned
