@@ -109,6 +109,9 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_timelinejs][version] = "1.x-dev"
 projects[views_timelinejs][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
+
 ; +++++ Libraries +++++
 
 ; CKEditor
@@ -125,3 +128,14 @@ libraries[colorpicker][destination] = "libraries"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 
+; Patches
+; fix false menu cloning
+projects[og_clone][patch][] = "http://drupal.org/files/og_clone-menu-cloning-none-1940982-1.patch"
+; allow for altering what can be cloned
+projects[og_clone][patch][] = "http://drupal.org/files/og_clone-item-id-alter-1941054-1.patch"
+; allow multiple versions of jquery
+projects[jquery_update][patch][] = "http://drupal.org/files/jquery_update-1524944-78.patch"
+; tool provider support for profile2 module
+projects[lti_tool_provider][patch][] = "http://drupal.org/files/lti_tool_provider-profile2-support.patch"
+; profile2 entity cache glitch
+projects[profile2][patch][] = "http://drupal.org/files/profile2-1387268-30.patch"
