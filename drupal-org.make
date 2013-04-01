@@ -139,6 +139,6 @@ projects[og_clone][patch][] = "http://drupal.org/files/og_clone-item-id-alter-19
 ; allow multiple versions of jquery
 projects[jquery_update][patch][] = "http://drupal.org/files/jquery_update-1524944-78.patch"
 ; tool provider support for profile2 module
-projects[lti_tool_provider][patch][] = "http://drupal.org/files/lti_tool_provider-profile2-support.patch"
+;projects[lti_tool_provider][patch][] = "http://drupal.org/files/lti_tool_provider-profile2-support.patch"
 ; profile2 entity cache glitch
 projects[profile2][patch][] = "http://drupal.org/files/profile2-1387268-30.patch"
