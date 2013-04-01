@@ -96,6 +96,7 @@ dependencies[] = views_ui
 dependencies[] = features
 dependencies[] = cis_connector_profile2
 dependencies[] = cis_service_roles
+dependencies[] = cis_section
 dependencies[] = features_override
 dependencies[] = textbook_editor
 dependencies[] = views_timelinejs_feature

@@ -16,6 +16,9 @@ projects[ctools][subdir] = "contrib"
 projects[google_chart_tools][version] = "1.4"
 projects[google_chart_tools][subdir] = "contrib"
 
+projects[context][version] = "3.0-beta4"
+projects[context][subdir] = "contrib"
+
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
@@ -55,8 +58,8 @@ projects[og][subdir] = "contrib"
 projects[og_clone][version] = "1.x-dev"
 projects[og_clone][subdir] = "contrib"
 
-projects[node_clone][version] = "1.0-rc1"
-projects[node_clone][subdir] = "contrib"
+projects[boxes][version] = "1.1"
+projects[boxes][subdir] = "contrib"
 
 projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
@@ -64,8 +67,14 @@ projects[entity][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
+projects[masquerade][version] = "1.0-rc5"
+projects[masquerade][subdir] = "contrib"
+
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
+
+projects[node_clone][version] = "1.0-rc1"
+projects[node_clone][subdir] = "contrib"
 
 projects[profile2][version] = "1.3"
 projects[profile2][subdir] = "contrib"
@@ -79,11 +88,26 @@ projects[strongarm][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
+projects[webaccess_authentication_required][version] = "1.4"
+projects[webaccess_authentication_required][subdir] = "contrib"
+
+projects[entitycache][version] = "1.1"
+projects[entitycache][subdir] = "contrib"
+
 projects[quiz][version] = "4.0-beta1"
 projects[quiz][subdir] = "contrib"
 
+projects[quiz][version] = "4.0-beta1"
+projects[quiz][subdir] = "contrib"
+
+projects[regions][version] = "1.5"
+projects[regions][subdir] = "contrib"
+
 projects[textbook][version] = "1.0-rc2"
 projects[textbook][subdir] = "contrib"
+
+projects[delta][version] = "3.0-beta11"
+projects[delta][subdir] = "contrib"
 
 projects[user_progress][version] = "1.0-alpha1"
 projects[user_progress][subdir] = "contrib"
@@ -127,18 +151,14 @@ libraries[colorpicker][type] = "library"
 libraries[colorpicker][destination] = "libraries"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
-
 ; Patches
 ; allow for cloning of quiz things
 projects[quiz][patch][] = "http://drupal.org/files/0001-Allow-Quiz-nodes-to-be-cloned-with-the-node_clone-mo.patch"
-node_clone
 ; fix false menu cloning
 projects[og_clone][patch][] = "http://drupal.org/files/og_clone-menu-cloning-none-1940982-1.patch"
 ; allow for altering what can be cloned
 projects[og_clone][patch][] = "http://drupal.org/files/og_clone-item-id-alter-1941054-1.patch"
 ; allow multiple versions of jquery
 projects[jquery_update][patch][] = "http://drupal.org/files/jquery_update-1524944-78.patch"
-; tool provider support for profile2 module
-;projects[lti_tool_provider][patch][] = "http://drupal.org/files/lti_tool_provider-profile2-support.patch"
 ; profile2 entity cache glitch
 projects[profile2][patch][] = "http://drupal.org/files/profile2-1387268-30.patch"

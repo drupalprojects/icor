@@ -22,3 +22,10 @@ libraries[oauth][destination] = "libraries"
 libraries[oauth][download][type] = "get"
 libraries[oauth][download][url] = "https://github.com/juampy72/OAuth-PHP/archive/master.zip"
 
+; icor
+libraries[icor][directory_name] = "icor"
+libraries[icor][type] = "profile"
+libraries[icor][destination] = "../../profiles"
+libraries[icor][download][type] = "get"
+libraries[icor][download][url] = "http://ftp.drupal.org/files/projects/icor-7.x-1.x-dev.tar.gz"
+
