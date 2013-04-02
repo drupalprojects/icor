@@ -64,6 +64,9 @@ projects[boxes][subdir] = "contrib"
 projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
+projects[entity_iframe][version] = "1.0-beta2"
+projects[enttiy_iframe][subdir] = "contrib"
+
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 

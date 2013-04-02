@@ -46,6 +46,8 @@ dependencies[] = makemeeting
 ; Input filters
 dependencies[] = typogrify
 dependencies[] = video_filter
+; ICOR
+dependencies[] = icor_helper
 ; Learning Tools Interoperability
 dependencies[] = lti_tool_provider
 dependencies[] = lti_tool_provider_og
@@ -59,6 +61,8 @@ dependencies[] = og_register
 dependencies[] = og_ui
 ; Other
 dependencies[] = entity
+dependencies[] = entity_iframe
+dependencies[] = entity_iframe_mode
 dependencies[] = libraries
 dependencies[] = module_filter
 dependencies[] = profile2
