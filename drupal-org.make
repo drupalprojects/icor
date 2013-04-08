@@ -139,6 +139,13 @@ projects[views_timelinejs][subdir] = "contrib"
 projects[jquery_update][version] = "2.3"
 projects[jquery_update][subdir] = "contrib"
 
+projects[seckit][version] = "1.5"
+projects[seckit][subdir] = "contrib"
+
+projects[menu_breadcrumb][version] = "1.3"
+projects[menu_breadcrumb][subdir] = "contrib"
+
+
 ; +++++ Libraries +++++
 
 ; CKEditor

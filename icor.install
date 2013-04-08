@@ -109,6 +109,7 @@ function icor_install() {
     'cis_connector_profile2',
     'cis_service_roles',
     'textbook_editor',
+    'icor_defaults',
     'views_timelinejs_feature'
   );
   features_revert($features);

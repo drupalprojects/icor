@@ -1,0 +1,10 @@
+name = ICOR defaults
+description = Some settings that help develop meaningful defaults
+core = 7.x
+package = ICOR
+dependencies[] = ctools
+dependencies[] = menu_breadcrumb
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = menu_breadcrumb_hide_on_single_item

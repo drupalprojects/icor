@@ -53,6 +53,8 @@ dependencies[] = lti_tool_provider
 dependencies[] = lti_tool_provider_og
 ; Media
 dependencies[] = imce
+; Menu
+dependencies[] = menu_breadcrumb
 ; Organic groups
 dependencies[] = og
 dependencies[] = og_clone
@@ -101,6 +103,7 @@ dependencies[] = features
 dependencies[] = cis_connector_profile2
 dependencies[] = cis_service_roles
 dependencies[] = cis_section
+dependencies[] = icor_defaults
 dependencies[] = features_override
 dependencies[] = textbook_editor
 dependencies[] = views_timelinejs_feature
