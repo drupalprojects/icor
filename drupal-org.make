@@ -22,6 +22,9 @@ projects[context][subdir] = "contrib"
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
+projects[devel][version] = "1.3"
+projects[devel][subdir] = "contrib"
+
 projects[profiler_builder][version] = "1.x-dev"
 projects[profiler_builder][subdir] = "contrib"
 
@@ -64,7 +67,7 @@ projects[boxes][subdir] = "contrib"
 projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
-projects[entity_iframe][version] = "1.0-beta2"
+projects[entity_iframe][version] = "1.0-beta3"
 projects[enttiy_iframe][subdir] = "contrib"
 
 projects[libraries][version] = "2.1"
