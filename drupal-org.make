@@ -10,7 +10,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[cis_connector][version] = "1.x-dev"
 projects[cis_connector][subdir] = "contrib"
 
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
 projects[google_chart_tools][version] = "1.4"
@@ -28,7 +28,7 @@ projects[devel][subdir] = "contrib"
 projects[profiler_builder][version] = "1.x-dev"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-beta2"
 projects[features][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-beta2"
