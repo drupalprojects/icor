@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Implements hook_install().
@@ -106,12 +107,15 @@ function icor_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    'cis_connector_profile2',
+    'cis_section',
     'cis_service_roles',
     'textbook_editor',
     'icor_defaults',
-    'views_timelinejs_feature'
+    'icor_interactive_player',
+    'regions_admin_example',
+    'views_timelinejs_feature',
   );
+
   features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
