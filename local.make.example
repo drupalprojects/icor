@@ -15,6 +15,13 @@ libraries[fitvids][destination] = "libraries"
 libraries[fitvids][download][type] = "get"
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 
+; timeline
+libraries[timeline][directory_name] = "timeline"
+libraries[timeline][type] = "library"
+libraries[timeline][destination] = "libraries"
+libraries[timeline][download][type] = "get"
+libraries[timeline][download][url] = "https://github.com/VeriteCo/TimelineJS/archive/master.zip"
+
 ; OAuth Drupal fork
 libraries[oauth][directory_name] = "oauth"
 libraries[oauth][type] = "library"

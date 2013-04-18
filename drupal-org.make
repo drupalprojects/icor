@@ -7,16 +7,13 @@ api = "2"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
-projects[cis_connector][version] = "1.x-dev"
-projects[cis_connector][subdir] = "contrib"
-
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
 projects[google_chart_tools][version] = "1.4"
 projects[google_chart_tools][subdir] = "contrib"
 
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.0-beta6"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.6"
@@ -37,10 +34,13 @@ projects[features_override][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 projects[entityreference][subdir] = "contrib"
 
+projects[entityreference_dynamicselect_widget][version] = "1.0"
+projects[entityreference_dynamicselect_widget][subdir] = "contrib"
+
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[makemeeting][version] = "2.0-rc3"
+projects[makemeeting][version] = "2.0-rc4"
 projects[makemeeting][subdir] = "contrib"
 
 projects[typogrify][version] = "1.0-rc6"
@@ -67,14 +67,17 @@ projects[boxes][subdir] = "contrib"
 projects[entity][version] = "1.0"
 projects[entity][subdir] = "contrib"
 
-projects[entity_iframe][version] = "1.0-beta3"
-projects[enttiy_iframe][subdir] = "contrib"
+projects[entityreference_dynamicselect_widget][version] = "1.0"
+projects[entityreference_dynamicselect_widget][subdir] = "contrib"
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
 projects[masquerade][version] = "1.0-rc5"
 projects[masquerade][subdir] = "contrib"
+
+projects[menu_breadcrumb][version] = "1.3"
+projects[menu_breadcrumb][subdir] = "contrib"
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
@@ -85,7 +88,7 @@ projects[node_clone][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 projects[profile2][subdir] = "contrib"
 
-projects[restws][version] = "2.0-alpha4"
+projects[restws][version] = "2.0-alpha5"
 projects[restws][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -94,14 +97,20 @@ projects[strongarm][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
-projects[webaccess_authentication_required][version] = "1.4"
-projects[webaccess_authentication_required][subdir] = "contrib"
-
 projects[entitycache][version] = "1.1"
 projects[entitycache][subdir] = "contrib"
 
 projects[quiz][version] = "4.0-beta1"
 projects[quiz][subdir] = "contrib"
+
+projects[cloze][version] = "1.0-alpha3"
+projects[cloze][subdir] = "contrib"
+
+projects[grouping_question][version] = "4.4"
+projects[grouping_question][subdir] = "contrib"
+
+projects[image_target_question][version] = "4.4-beta2"
+projects[image_target_question][subdir] = "contrib"
 
 projects[quiz][version] = "4.0-beta1"
 projects[quiz][subdir] = "contrib"
@@ -115,39 +124,54 @@ projects[textbook][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
 
-projects[user_progress][version] = "1.0-alpha1"
-projects[user_progress][subdir] = "contrib"
-
 projects[ckeditor_link][version] = "2.3"
 projects[ckeditor_link][subdir] = "contrib"
 
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
+
+projects[lightbox2][version] = "1.0-beta1"
+projects[lightbox2][subdir] = "contrib"
+
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[editableviews][version] = "1.0-beta4"
+projects[editableviews][version] = "1.0-beta5"
 projects[editableviews][subdir] = "contrib"
 
-projects[views][version] = "3.6"
+projects[eva][version] = "1.2"
+projects[eva][subdir] = "contrib"
+
+projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
 
+projects[views_simple_pager][version] = "1.0-alpha2"
+projects[views_simple_pager][subdir] = "contrib"
+
 projects[views_timelinejs][version] = "1.x-dev"
 projects[views_timelinejs][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.3"
-projects[jquery_update][subdir] = "contrib"
+projects[views_xml_backend][version] = "1.0-alpha4"
+projects[views_xml_backend][subdir] = "contrib"
 
-projects[seckit][version] = "1.5"
-projects[seckit][subdir] = "contrib"
+projects[cis_connector][version] = "1.x-dev"
+projects[cis_connector][subdir] = "contrib"
 
-projects[menu_breadcrumb][version] = "1.3"
-projects[menu_breadcrumb][subdir] = "contrib"
+projects[entity_iframe][version] = "1.x-dev"
+projects[entity_iframe][subdir] = "contrib"
 
+; +++++ Themes +++++
+
+; blank
+projects[blank][type] = "theme"
+projects[blank][version] = "1.x-dev"
+projects[blank][subdir] = "contrib"
 
 ; +++++ Libraries +++++
 
@@ -164,14 +188,4 @@ libraries[colorpicker][type] = "library"
 libraries[colorpicker][destination] = "libraries"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
-; Patches
-; allow for cloning of quiz things
-projects[quiz][patch][] = "http://drupal.org/files/0001-Allow-Quiz-nodes-to-be-cloned-with-the-node_clone-mo.patch"
-; fix false menu cloning
-projects[og_clone][patch][] = "http://drupal.org/files/og_clone-menu-cloning-none-1940982-1.patch"
-; allow for altering what can be cloned
-projects[og_clone][patch][] = "http://drupal.org/files/og_clone-item-id-alter-1941054-1.patch"
-; allow multiple versions of jquery
-projects[jquery_update][patch][] = "http://drupal.org/files/jquery_update-1524944-78.patch"
-; profile2 entity cache glitch
-projects[profile2][patch][] = "http://drupal.org/files/profile2-1387268-30.patch"
+

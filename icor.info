@@ -14,6 +14,9 @@ dependencies[] = ctools
 ; Charting
 dependencies[] = google_chart_tools
 dependencies[] = google_chart_tools_views
+; Context
+dependencies[] = context
+dependencies[] = context_ui
 ; Core
 dependencies[] = block
 dependencies[] = contextual
@@ -30,7 +33,7 @@ dependencies[] = node
 dependencies[] = number
 dependencies[] = options
 dependencies[] = overlay
-dependencies[] = path
+dependencies[] = poll
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
@@ -39,22 +42,24 @@ dependencies[] = user
 ; Date/Time
 dependencies[] = date
 dependencies[] = date_api
+; Entity
+dependencies[] = entity_iframe
+dependencies[] = entity_iframe_mode
 ; Fields
 dependencies[] = entityreference
+dependencies[] = entityreference_dynamicselect_widget
 dependencies[] = link
 dependencies[] = makemeeting
+; ICOR
+dependencies[] = icor_helper
 ; Input filters
 dependencies[] = typogrify
 dependencies[] = video_filter
-; ICOR
-dependencies[] = icor_helper
 ; Learning Tools Interoperability
 dependencies[] = lti_tool_provider
 dependencies[] = lti_tool_provider_og
 ; Media
 dependencies[] = imce
-; Menu
-dependencies[] = menu_breadcrumb
 ; Organic groups
 dependencies[] = og
 dependencies[] = og_clone
@@ -62,20 +67,28 @@ dependencies[] = og_context
 dependencies[] = og_register
 dependencies[] = og_ui
 ; Other
+dependencies[] = boxes
+dependencies[] = clone
+dependencies[] = dynamic_select
 dependencies[] = entity
-dependencies[] = entity_iframe
-dependencies[] = entity_iframe_mode
 dependencies[] = libraries
+dependencies[] = masquerade
+dependencies[] = menu_breadcrumb
 dependencies[] = module_filter
 dependencies[] = profile2
 dependencies[] = restws
 dependencies[] = restws_basic_auth
 dependencies[] = strongarm
 dependencies[] = transliteration
+; Performance and scalability
+dependencies[] = entitycache
 ; Quiz Core
 dependencies[] = quiz
 dependencies[] = quiz_question
 ; Quiz Question
+dependencies[] = cloze
+dependencies[] = grouping_question
+dependencies[] = image_target_question
 dependencies[] = long_answer
 dependencies[] = matching
 dependencies[] = multichoice
@@ -84,27 +97,36 @@ dependencies[] = quiz_directions
 dependencies[] = scale
 dependencies[] = short_answer
 dependencies[] = truefalse
+; Regions
+dependencies[] = regions
+dependencies[] = regions_admin_left
 ; Textbook
 dependencies[] = textbook
-; User Progress
-dependencies[] = user_progress
+; Theme Tools
+dependencies[] = delta_blocks
 ; User interface
 dependencies[] = ckeditor_link
 dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
+dependencies[] = lightbox2
 dependencies[] = wysiwyg
 ; Views
 dependencies[] = editableviews
+dependencies[] = eva
 dependencies[] = views
 dependencies[] = views_bulk_operations
+dependencies[] = views_simple_pager
 dependencies[] = views_timelinejs
 dependencies[] = views_ui
+dependencies[] = views_xml_backend
 ; Features
 dependencies[] = features
-dependencies[] = cis_connector_profile2
-dependencies[] = cis_service_roles
 dependencies[] = cis_section
-dependencies[] = icor_defaults
+dependencies[] = cis_service_roles
 dependencies[] = features_override
+dependencies[] = icor_defaults
+dependencies[] = icor_interactive_player
+dependencies[] = regions_admin_example
 dependencies[] = textbook_editor
 dependencies[] = views_timelinejs_feature
 
