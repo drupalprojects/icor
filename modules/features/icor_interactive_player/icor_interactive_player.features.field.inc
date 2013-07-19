@@ -137,7 +137,6 @@ function icor_interactive_player_field_default_fields() {
             'quiz' => 'quiz',
           ),
         ),
-        'profile2_private' => FALSE,
         'target_type' => 'node',
       ),
       'translatable' => '0',

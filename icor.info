@@ -75,7 +75,6 @@ dependencies[] = libraries
 dependencies[] = masquerade
 dependencies[] = menu_breadcrumb
 dependencies[] = module_filter
-dependencies[] = profile2
 dependencies[] = restws
 dependencies[] = restws_basic_auth
 dependencies[] = strongarm
