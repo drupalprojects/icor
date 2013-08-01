@@ -166,6 +166,9 @@ projects[cis_connector][subdir] = "contrib"
 projects[entity_iframe][version] = "1.x-dev"
 projects[entity_iframe][subdir] = "contrib"
 
+projects[httprl][version] = "1.12"
+projects[httprl][subdir] = "contrib"
+
 ; +++++ Themes +++++
 
 ; blank
