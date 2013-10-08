@@ -2,7 +2,9 @@
 core = "7.x"
 api = "2"
 
-projects[drupal][version] = "7.x"
+projects[drupal][version] = 7.23
+; Patch to allow install profile enabling to enable dependencies correctly.
+projects[drupal][patch][1093420] = http://drupal.org/files/1093420-22.patch
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
 
@@ -28,11 +30,3 @@ libraries[oauth][type] = "library"
 libraries[oauth][destination] = "libraries"
 libraries[oauth][download][type] = "get"
 libraries[oauth][download][url] = "https://github.com/juampy72/OAuth-PHP/archive/master.zip"
-
-; icor
-libraries[icor][directory_name] = "icor"
-libraries[icor][type] = "profile"
-libraries[icor][destination] = "../../profiles"
-libraries[icor][download][type] = "get"
-libraries[icor][download][url] = "http://ftp.drupal.org/files/projects/icor-7.x-1.x-dev.tar.gz"
-
