@@ -120,12 +120,11 @@ dependencies[] = views_ui
 dependencies[] = views_xml_backend
 ; Features
 dependencies[] = features
-dependencies[] = cis_section
-dependencies[] = cis_service_roles
 dependencies[] = features_override
-dependencies[] = icor_defaults
-dependencies[] = icor_interactive_player
-dependencies[] = regions_admin_example
 dependencies[] = textbook_editor
 dependencies[] = views_timelinejs_feature
-
+dependencies[] = cis_section
+dependencies[] = cis_service_roles
+dependencies[] = regions_admin_example
+dependencies[] = icor_interactive_player
+dependencies[] = icor_defaults
