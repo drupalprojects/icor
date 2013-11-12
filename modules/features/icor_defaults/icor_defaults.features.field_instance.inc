@@ -208,7 +208,7 @@ function icor_defaults_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Unique Tag');
+  t('Unique tag');
   t('Use this if you\'d like to utilize ELMS "find item by tag" capabilities.   AN example of when to use this is if you\'d like to make a link to /find-cis-tag/{tagname} for linking to resources (like a lesson landing page or specific page) and want to reference that address and allow ELMS to figure out the correct version to deliver.  This is useful for "programming" the LMS master section, or linking content over to the studio.');
 
   return $field_instances;
