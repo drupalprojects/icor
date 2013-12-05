@@ -192,3 +192,9 @@ libraries[colorpicker][destination] = "libraries"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 
+; OAuth Drupal fork
+libraries[oauth][directory_name] = "oauth"
+libraries[oauth][type] = "library"
+libraries[oauth][destination] = "libraries"
+libraries[oauth][download][type] = "get"
+libraries[oauth][download][url] = "https://github.com/juampy72/OAuth-PHP/archive/master.zip"

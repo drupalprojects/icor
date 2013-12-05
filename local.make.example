@@ -23,10 +23,3 @@ libraries[timeline][type] = "library"
 libraries[timeline][destination] = "libraries"
 libraries[timeline][download][type] = "get"
 libraries[timeline][download][url] = "https://github.com/VeriteCo/TimelineJS/archive/master.zip"
-
-; OAuth Drupal fork
-libraries[oauth][directory_name] = "oauth"
-libraries[oauth][type] = "library"
-libraries[oauth][destination] = "libraries"
-libraries[oauth][download][type] = "get"
-libraries[oauth][download][url] = "https://github.com/juampy72/OAuth-PHP/archive/master.zip"
