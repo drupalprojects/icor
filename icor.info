@@ -6,6 +6,8 @@ core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
+; Fast click
+dependencies[] = fastclick
 ; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -126,5 +128,7 @@ dependencies[] = views_timelinejs_feature
 dependencies[] = cis_section
 dependencies[] = cis_service_roles
 dependencies[] = regions_admin_example
+dependencies[] = icor_cis_ux
+dependencies[] = icor_timeline_type
 dependencies[] = icor_interactive_player
 dependencies[] = icor_defaults
