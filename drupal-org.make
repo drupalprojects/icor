@@ -46,6 +46,9 @@ projects[link][subdir] = "contrib"
 projects[makemeeting][version] = "2.0-rc4"
 projects[makemeeting][subdir] = "contrib"
 
+projects[yuml][version] = "1.x-dev"
+projects[yuml][subdir] = "contrib"
+
 projects[typogrify][version] = "1.0-rc6"
 projects[typogrify][subdir] = "contrib"
 

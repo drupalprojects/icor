@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * ICOR Smart Builder experience functions and glue code
+ */
+
+/**
+ * Implements hook_init().
+ */
+function icor_smart_builder_init() {
+}
+
+
