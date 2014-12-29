@@ -198,9 +198,9 @@ projects[blank][type] = "theme"
 projects[blank][version] = "1.x-dev"
 projects[blank][subdir] = "contrib"
 
-projects[entity_iframe][type] = "theme"
-projects[entity_iframe][version] = "1.x-dev"
-projects[entity_iframe][subdir] = "contrib"
+projects[entity_iframe_theme][type] = "theme"
+projects[entity_iframe_theme][version] = "1.x-dev"
+projects[entity_iframe_theme][subdir] = "contrib"
 
 ; zurb-foundation
 projects[zurb_foundation][type] = "theme"
