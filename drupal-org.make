@@ -31,7 +31,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[file_entity][version] = "2.x-dev"
 projects[file_entity][subdir] = "contrib"
 
-projects[features][version] = "2.0-beta2"
+projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-beta2"
