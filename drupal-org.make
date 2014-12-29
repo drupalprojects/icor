@@ -4,6 +4,12 @@ api = "2"
 
 ; +++++ Modules +++++
 
+projects[user_progress][version] = "1.x-dev"
+projects[user_progress][subdir] = "contrib"
+
+projects[entityreference_view_widget][version] = "2.0-rc5"
+projects[entityreference_view_widget][subdir] = "contrib"
+
 projects[fastclick][version] = "1.2"
 projects[fastclick][subdir] = "contrib"
 
@@ -127,9 +133,6 @@ projects[image_target_question][subdir] = "contrib"
 projects[regions][version] = "1.5"
 projects[regions][subdir] = "contrib"
 
-projects[textbook][version] = "4.0"
-projects[textbook][subdir] = "contrib"
-
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
 
@@ -172,7 +175,7 @@ projects[views_xml_backend][subdir] = "contrib"
 projects[cis_connector][version] = "1.x-dev"
 projects[cis_connector][subdir] = "contrib"
 
-projects[entity_iframe][version] = "1.x-dev"
+projects[entity_iframe][version] = "1.1"
 projects[entity_iframe][subdir] = "contrib"
 
 projects[httprl][version] = "1.12"
