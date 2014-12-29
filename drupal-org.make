@@ -19,6 +19,9 @@ projects[admin_menu][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
+projects[advagg][version] = "2.7"
+projects[advagg][subdir] = "contrib"
+
 projects[google_chart_tools][version] = "1.4"
 projects[google_chart_tools][subdir] = "contrib"
 
