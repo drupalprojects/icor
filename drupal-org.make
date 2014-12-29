@@ -22,6 +22,9 @@ projects[ctools][subdir] = "contrib"
 projects[google_chart_tools][version] = "1.4"
 projects[google_chart_tools][subdir] = "contrib"
 
+projects[textbook][version] = "1.0"
+projects[textbook][subdir] = "contrib"
+
 projects[context][version] = "3.2"
 projects[context][subdir] = "contrib"
 
