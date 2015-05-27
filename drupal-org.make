@@ -221,6 +221,9 @@ projects[entity_iframe][subdir] = "contrib"
 ; Fields
 projects[entityreference_dynamicselect_widget][version] = "1.x-dev"
 projects[entityreference_dynamicselect_widget][subdir] = "contrib"
+projects[entityreference_view_widget][version] = "2.0-rc6"
+projects[entityreference_view_widget][subdir] = "contrib"
+
 ; Other
 projects[user_progress][version] = "1.x-dev"
 projects[user_progress][subdir] = "contrib"
