@@ -235,8 +235,6 @@ projects[menu_breadcrumb][subdir] = "contrib"
 projects[lightbox2][version] = "1.x-dev"
 projects[lightbox2][subdir] = "contrib"
 ; Views
-projects[editableviews][version] = "1.0-beta9"
-projects[editableviews][subdir] = "contrib"
 projects[eva][version] = "1.x-dev"
 projects[eva][subdir] = "contrib"
 projects[views_simple_pager][version] = "1.x-dev"

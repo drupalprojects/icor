@@ -143,7 +143,6 @@ dependencies[] = menu_breadcrumb
 ; User interface
 dependencies[] = lightbox2
 ; Views
-dependencies[] = editableviews
 dependencies[] = eva
 dependencies[] = views_simple_pager
 dependencies[] = views_timelinejs
