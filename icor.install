@@ -91,8 +91,6 @@ function icor_install() {
     $query->values($block);
   }
   $query->execute();
-  // Update the menu router information.
-  menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
     'cis_section',
