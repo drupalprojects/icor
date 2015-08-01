@@ -3,6 +3,8 @@ name = "ICOR"
 description = "Interactive course object repository"
 exclusive = "1"
 core = "7.x"
+elmslndefaulttitle = "Interactive Assets"
+elmslntype = "authority"
 
 ; ----------
 ; ELMSLN Core Dependencies
@@ -111,12 +113,9 @@ dependencies[] = cis_lmsless
 dependencies[] = foundation_access_ux
 
 ; ----------
-; Service Dependencies
+; Authority Dependencies
 ; ----------
-dependencies[] = og
-dependencies[] = og_ui
-dependencies[] = cis_section
-
+dependencies[] = cis_course_authority
 
 ; ----------
 ; ICOR Dependencies
@@ -149,10 +148,9 @@ dependencies[] = views_timelinejs
 ; Features
 dependencies[] = views_timelinejs_feature
 dependencies[] = views_timelinejs_extras
-dependencies[] = icor_cis_ux
 dependencies[] = icor_interactive_player
 dependencies[] = icor_file_entities
-dependencies[] = icor_admin_ux
+dependencies[] = icor_ux
 dependencies[] = icor_defaults
 
 ; Information added for Drupal.org usage stats while in dev
