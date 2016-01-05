@@ -50,6 +50,7 @@ dependencies[] = prepopulate
 dependencies[] = menu_attributes
 dependencies[] = special_menu_items
 ; Other
+dependencies[] = navigation404
 dependencies[] = better_formats
 dependencies[] = chosen
 dependencies[] = defaultconfig
@@ -141,7 +142,6 @@ dependencies[] = icor_smart_builder
 dependencies[] = user_progress
 dependencies[] = file_entity
 dependencies[] = dynamic_select
-dependencies[] = menu_breadcrumb
 ; User interface
 dependencies[] = lightbox2
 ; Views
