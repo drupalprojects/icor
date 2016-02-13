@@ -105,6 +105,7 @@ dependencies[] = views_bulk_operations
 dependencies[] = features
 dependencies[] = features_override
 ; ELMSLN Core
+dependencies[] = elmsln_api
 dependencies[] = cis_connector
 dependencies[] = cis_service_connection
 dependencies[] = cis_service_connection_ux
@@ -112,6 +113,7 @@ dependencies[] = cis_service_roles
 dependencies[] = cis_lmsless
 dependencies[] = cis_shortcodes
 dependencies[] = foundation_access_ux
+dependencies[] = elmsln_core
 ; ELMSLN Core - Performance
 dependencies[] = elmsln_authcache
 dependencies[] = elmsln_advagg
@@ -139,7 +141,6 @@ dependencies[] = entityreference_dynamicselect_widget
 dependencies[] = icor_helper
 dependencies[] = icor_smart_builder
 ; Other
-dependencies[] = user_progress
 dependencies[] = file_entity
 dependencies[] = dynamic_select
 ; User interface
@@ -154,6 +155,7 @@ dependencies[] = views_timelinejs_extras
 dependencies[] = icor_interactive_player
 dependencies[] = icor_file_entities
 dependencies[] = icor_ux
+dependencies[] = icor_poll
 dependencies[] = icor_defaults
 
 ; Information added for Drupal.org usage stats while in dev
