@@ -19,6 +19,8 @@ function icor_install() {
   variable_set('cis_help_page', '');
   variable_set('cis_resource_page', '');
   variable_set('cis_syllabus_page', '');
+  features_revert_module('icor_jmol');
+  features_revert_module('icor_poll');
   // force homepage to the object list
   variable_set('site_frontpage', 'icor-object-lists');
 }
@@ -42,4 +44,49 @@ function icor_update_7002(&$sandbox) {
   features_revert_module('icor_poll');
   features_revert_module('icor_file_entities');
   module_enable(array('icor_perms'));
+}
+
+/**
+ * Implements hook_update_N().
+ * Revert everything based on display settings
+ */
+function icor_update_7003(&$sandbox) {
+  features_revert_module('icor_jmol');
+  features_revert_module('icor_interactive_player');
+  features_revert_module('icor_poll');
+  features_revert_module('views_timelinejs_extras');
+  features_revert_module('views_timelinejs_feature');
+  features_revert_module('icor_ux');
+  features_revert_module('icor_defaults');
+}
+
+/**
+ * Enable talking to the comply system but don't bulk send as
+ * people will need to do that manually if they desire.
+ */
+function icor_update_7004(&$sandbox) {
+  module_enable(array('elmsln_ecd'));
+}
+
+/**
+ * Enable mapping functionality for ICOR.
+ */
+function icor_update_7005(&$sandbox) {
+  module_enable(array('icor_mapping'));
+  features_revert_module('icor_defaults');
+  features_revert_module('icor_jmol');
+  features_revert_module('icor_poll');
+  features_revert_module('icor_ux');
+}
+
+/**
+ * Layout of items exported.
+ */
+function icor_update_7006(&$sandbox) {
+  features_revert_module('icor_interactive_player');
+  features_revert_module('icor_jmol');
+  features_revert_module('icor_mapping');
+  features_revert_module('icor_poll');
+  features_revert_module('views_timelinejs_extras');
+  features_revert_module('views_timelinejs_feature');
 }

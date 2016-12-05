@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * icor_interactive_player.features.inc
+ * icor_mapping.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function icor_interactive_player_ctools_plugin_api($module = NULL, $api = NULL) {
+function icor_mapping_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "ds" && $api == "ds") {
     return array("version" => "1");
   }
@@ -19,19 +19,27 @@ function icor_interactive_player_ctools_plugin_api($module = NULL, $api = NULL) 
 /**
  * Implements hook_views_api().
  */
-function icor_interactive_player_views_api($module = NULL, $api = NULL) {
+function icor_mapping_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
 /**
  * Implements hook_node_info().
  */
-function icor_interactive_player_node_info() {
+function icor_mapping_node_info() {
   $items = array(
-    'icor_interactive_player' => array(
-      'name' => t('Interactive Player'),
+    'map' => array(
+      'name' => t('Map'),
       'base' => 'node_content',
-      'description' => t('A list of items that the user can page through in order to make up one chain of interactive items.'),
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'map_point' => array(
+      'name' => t('Map point'),
+      'base' => 'node_content',
+      'description' => '',
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

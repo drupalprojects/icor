@@ -75,7 +75,7 @@ function icor_poll_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
           'weight' => '4',
@@ -85,6 +85,21 @@ function icor_poll_strongarm() {
         ),
         'settings' => array(
           'weight' => '3',
+        ),
+        'hidden_nodes' => array(
+          'weight' => '8',
+        ),
+        'book' => array(
+          'weight' => '9',
+        ),
+        'options' => array(
+          'weight' => '6',
+        ),
+        'author' => array(
+          'weight' => '7',
+        ),
+        'revision_information' => array(
+          'weight' => '5',
         ),
       ),
       'display' => array(),
